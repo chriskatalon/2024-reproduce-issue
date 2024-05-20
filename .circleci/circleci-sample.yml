@@ -1,0 +1,9 @@
+version: 2.1
+orbs:
+  katalon-studio: katalon/katalon-studio@23.0.12
+workflows:
+  build:
+    jobs:
+      - katalon-studio/run:
+          version: 9.4.0
+          command_arguments: -retry=0 -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" -apiKey="0a79e6bb-4f07-46f6-af6d-582f61328184"
