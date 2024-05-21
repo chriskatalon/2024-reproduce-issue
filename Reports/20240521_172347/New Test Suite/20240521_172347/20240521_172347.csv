@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,21-05-2024 17:23:51,21-05-2024 17:23:52,0.175s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,,,21-05-2024 17:23:51,21-05-2024 17:23:52,0.115s,PASSED
+Start listener action : enableSauceLabs,,,,21-05-2024 17:23:51,21-05-2024 17:23:51,0.005s,PASSED
+"name = ""Mohan Pattar""",,,,21-05-2024 17:23:52,21-05-2024 17:23:52,0.002s,PASSED
+"println(""END"")",,,,21-05-2024 17:23:52,21-05-2024 17:23:52,0.003s,PASSED
+"demo.saks.containsIgnoreCase(name, name)",,,,21-05-2024 17:23:52,21-05-2024 17:23:52,0.007s,PASSED
+Start listener action : autoUpdateJobStatus,,,,21-05-2024 17:23:52,21-05-2024 17:23:52,0.001s,PASSED

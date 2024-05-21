@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="0.175" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="0.175" skipped="0" timestamp="21-05-2024T17:23:51" hostname="quan.trinh - 192.168.0.25" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/quan.trinh/git/2024-reproduce-issue/Reports/20240521_172347/New Test Suite/20240521_172347"/>
+         <property name="logFiles" value="/Users/quan.trinh/git/2024-reproduce-issue/Reports/20240521_172347/New Test Suite/20240521_172347/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="quan.trinh - 192.168.0.25"/>
+         <property name="hostAddress" value="192.168.0.25"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="0.115" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[21-05-2024T17:23:51 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+21-05-2024T17:23:51 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+21-05-2024T17:23:51 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome version=123, Tunnel=false
+
+21-05-2024T17:23:51 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+21-05-2024T17:23:52 - [TEST_STEP][PASSED] - name = "Mohan Pattar": null
+
+21-05-2024T17:23:52 - [TEST_STEP][PASSED] - println("END"): null
+
+21-05-2024T17:23:52 - [TEST_STEP][PASSED] - demo.saks.containsIgnoreCase(name, name): demo.saks.containsIgnoreCase is PASSED
+
+21-05-2024T17:23:52 - [MESSAGE][PASSED] - demo.saks.containsIgnoreCase is PASSED
+
+21-05-2024T17:23:52 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome version=123, Tunnel=false
+
+21-05-2024T17:23:52 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome version=123, Tunnel=false]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-05-2024T17:23:51 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
