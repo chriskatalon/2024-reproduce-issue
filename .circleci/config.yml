@@ -6,4 +6,4 @@ workflows:
     jobs:
       - katalon-studio/run:
           version: 9.4.0
-          command_arguments: -retry=0 -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" 
+          command_arguments: -retry=0 -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" -apikey=$KATALON_API_KEY
