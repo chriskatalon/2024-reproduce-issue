@@ -1,0 +1,9 @@
+version: 2.1
+orbs:
+  katalon-studio: katalon/katalon-studio@23.0.11
+workflows:
+  build:
+    jobs:
+      - katalon-studio/run:
+          version: 9.4.0
+          command_arguments: -retry=0 -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" -apikey=$KATALON_API_KEY -orgID=482208
