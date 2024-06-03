@@ -1,0 +1,18 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v2.1
+      with:
+          version: '9.4.0'
+          projectPath: '${{ github.workspace }}'
+          args: '-retry=0 -testSuitePath="Test Suites/TS2 - Go to google" -browserType="Chrome (headless)" -executionProfile="default" -apiKey="064e6d27-3d06-44d4-aa95-4e87c5bb32f9" -orgID=482208 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
