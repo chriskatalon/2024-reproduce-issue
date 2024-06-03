@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'This is demo description\n'</initValue>
+      <name>TCdescription</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

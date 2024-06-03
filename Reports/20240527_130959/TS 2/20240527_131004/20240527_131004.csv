@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS 2,Chrome 125.0.6422.112,,,2024-05-27 13:10:14,2024-05-27 13:20:28,10m - 13.642s,FAILED
+,,,,,,,
+Test Cases/TC 2 - Go to katalon,Chrome 125.0.6422.112,,,2024-05-27 13:10:15,2024-05-27 13:20:28,10m - 13.309s,FAILED
+"openBrowser(""katalon.com"")",Chrome 125.0.6422.112,,,2024-05-27 13:10:15,2024-05-27 13:10:23,7.720s,PASSED
+delay(5),Chrome 125.0.6422.112,,,2024-05-27 13:10:23,2024-05-27 13:10:28,5.047s,PASSED
+takeScreenshot(),Chrome 125.0.6422.112,,,2024-05-27 13:10:28,2024-05-27 13:20:28,10m - 0.202s,FAILED

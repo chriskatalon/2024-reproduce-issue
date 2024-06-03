@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2024-05-27 13:07:36,2024-05-27 13:07:36,0.696s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,${GlobalVariable.TCdescription},,2024-05-27 13:07:36,2024-05-27 13:07:36,0.341s,PASSED
+"name = ""Mohan Pattar""",,,,2024-05-27 13:07:36,2024-05-27 13:07:36,0.002s,PASSED
+"println(""END"")",,,,2024-05-27 13:07:36,2024-05-27 13:07:36,0.004s,PASSED
+"demo.saks.containsIgnoreCase(name, name)",,,,2024-05-27 13:07:36,2024-05-27 13:07:36,0.019s,PASSED

@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String name = "Mohan Pattar"
+WebUI.openBrowser('katalon.com')
 
-println("END")
+WebUI.delay(5)
 
-CustomKeywords.'demo.saks.containsIgnoreCase'(name, name)
+WebUI.takeScreenshot()
+
+WebUI.closeBrowser()
 

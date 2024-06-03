@@ -1,0 +1,55 @@
+[35m[Appium][39m Welcome to Appium v2.5.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m51147[39m }
+[35m[Appium][39m Attempting to load driver xcuitest...
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[Appium] Appium REST http interface listener started on http://0.0.0.0:51147/wd/hub
+[Appium] You can provide the following URLs in your client code to connect to this server:
+[Appium] 	http://127.0.0.1:51147/wd/hub (only accessible from the same host)
+[Appium] 	http://192.168.0.22:51147/wd/hub
+[Appium] Available drivers:
+[Appium]   - xcuitest@7.1.0 (automationName 'XCUITest')
+[Appium]   - uiautomator2@2.45.1 (automationName 'UiAutomator2')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 4 ms - 110
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:wdaLocalPort":51162,"appium:platformName":"iOS","appium:bundleId":"com.usme.startraxdemo","appium:deviceName":"iPhone 15 Plus","platformName":"iOS","appium:automationName":"XCUITest","appium:platformVersion":"17.2"},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.usme.startraxdemo","appium:deviceName":"iPhone 15 Plus","appium:newCommandTimeout":1800,"appium:platformName":"iOS","appium:platformVersion":"17.2","appium:waitForAppScript":"true;","appium:wdaLocalPort":51162,"platformName":"ios"}]}}
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=iOS' and using capability 'platformName=ios'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/quan.trinh/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@99ab][0m Appium v2.5.1 creating new XCUITestDriver (v7.1.0) session
+[38;5;16m[AppiumDriver@99ab][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@99ab][0m Appium's BaseDriver version is 9.5.2
+[38;5;16m[AppiumDriver@99ab][0m XCUITestDriver's BaseDriver version is 9.5.2
+[38;5;48m[XCUITestDriver@1f6f][0m The following provided capabilities were not recognized by this driver:
+[38;5;48m[XCUITestDriver@1f6f][0m   waitForAppScript
+[38;5;48m[XCUITestDriver@1f6f (6cb5ee3f)][0m Session created with session id: 6cb5ee3f-22dd-4f75-ba32-208305900476
+[38;5;48m[XCUITestDriver@1f6f (6cb5ee3f)][0m No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+[38;5;48m[XCUITestDriver@1f6f (6cb5ee3f)][0m iOS SDK Version set to '17.2'
+[38;5;80m[iOSSim][0m Constructing iOS simulator for Xcode version 15.2 with udid 'DAB0CD15-97DB-4651-AACA-1296B842455E'
+[38;5;48m[XCUITestDriver@1f6f (6cb5ee3f)][0m Determining device to run tests on: udid: 'DAB0CD15-97DB-4651-AACA-1296B842455E', real device: false
+[38;5;64m[XCUITest][0m Reset: failed to terminate Simulator application with id "com.usme.startraxdemo"
+[38;5;64m[XCUITest][0m Error running 'get_app_container': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+[38;5;64m[XCUITest][0m The operation couldn’t be completed. No such file or directory
+[38;5;64m[XCUITest][0m No such file or directory
+[38;5;64m[XCUITest][0m Reset: could not scrub application with id "com.usme.startraxdemo". Leaving as is.
+[38;5;48m[XCUITestDriver@1f6f (6cb5ee3f)][0m Using WDA path: '/Users/quan.trinh/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;48m[XCUITestDriver@1f6f (6cb5ee3f)][0m Using WDA agent: '/Users/quan.trinh/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;48m[XCUITestDriver@1f6f (6cb5ee3f)][0m Setting up simulator
+[38;5;80m[iOSSim][0m Both Simulator with UDID 'DAB0CD15-97DB-4651-AACA-1296B842455E' and the UI client are currently running
+[38;5;128m[DevCon Factory][0m Releasing connections for DAB0CD15-97DB-4651-AACA-1296B842455E device on any port number
+[38;5;128m[DevCon Factory][0m No cached connections have been found
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 500 1246 ms - 616
+[38;5;0m[HTTP][0m 
+[Appium] Received SIGTERM - shutting down
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="0.696" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="0.696" skipped="0" timestamp="2024-05-27 13:07:36" hostname="root - 34ddca6942f6" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/project/Reports/20240527_130723/New Test Suite/20240527_130726"/>
+         <property name="logFiles" value="/tmp/project/Reports/20240527_130723/New Test Suite/20240527_130726/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="root - 34ddca6942f6"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="0.341" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2024-05-27 13:07:36 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2024-05-27 13:07:36 - [TEST_STEP][PASSED] - name = "Mohan Pattar": null
+
+2024-05-27 13:07:36 - [TEST_STEP][PASSED] - println("END"): null
+
+2024-05-27 13:07:36 - [TEST_STEP][PASSED] - demo.saks.containsIgnoreCase(name, name): demo.saks.containsIgnoreCase is PASSED
+
+2024-05-27 13:07:36 - [MESSAGE][PASSED] - demo.saks.containsIgnoreCase is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-05-27 13:07:36 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
