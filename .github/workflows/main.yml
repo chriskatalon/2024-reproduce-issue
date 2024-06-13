@@ -15,4 +15,4 @@ jobs:
       with:
           version: '9.4.0'
           projectPath: '${{ github.workspace }}'
-          args: '-retry=0 -testSuitePath="Test Suites/TS2" -browserType="Chrome (headless)" -executionProfile="default" -apiKey="064e6d27-3d06-44d4-aa95-4e87c5bb32f9" -orgID=482208 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+          args: '-retry=0 -testSuitePath="Test Suites\TS2" -browserType="Chrome (headless)" -executionProfile="default" -apiKey="064e6d27-3d06-44d4-aa95-4e87c5bb32f9" -orgID=482208 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
