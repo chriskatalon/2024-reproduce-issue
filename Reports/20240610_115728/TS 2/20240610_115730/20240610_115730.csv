@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS 2,,,,2024-06-10 11:57:42,2024-06-10 11:57:45,3.241s,FAILED
+,,,,,,,
+Test Cases/TC 2 - Go to katalon,,,,2024-06-10 11:57:42,2024-06-10 11:57:45,2.931s,FAILED
+"openBrowser(""katalon.com"")",,,,2024-06-10 11:57:42,2024-06-10 11:57:45,2.573s,FAILED

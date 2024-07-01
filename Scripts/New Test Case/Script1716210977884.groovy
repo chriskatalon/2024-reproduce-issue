@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String name = "Mohan Pattar"
+WebUI.openBrowser('')
 
-println("END")
+WebUI.navigateToUrl('https://katalon.com/pricing')
 
-CustomKeywords.'demo.saks.containsIgnoreCase'(name, name)
+WebUI.switchToWindowTitle('Software Quality Management Platform | Katalon Pricing')
+
+WebUI.click(findTestObject('Object Repository/Page_Software Quality Management Platform  _0ea48f/button_Reject All'))
+
+WebUI.click(findTestObject('Object Repository/Page_Software Quality Management Platform  _0ea48f/div_Buy via the AWS Marketplace'))
+
+WebUI.switchToWindowTitle('Software Quality Management Platform I Katalon Pricing')
+
+WebUI.switchToWindowTitle('AWS Marketplace: The Katalon Platform')
 

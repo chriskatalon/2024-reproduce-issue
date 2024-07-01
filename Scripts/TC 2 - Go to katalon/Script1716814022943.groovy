@@ -23,5 +23,9 @@ WebUI.delay(5)
 
 WebUI.takeScreenshot()
 
+WebUI.navigateToUrl('https://insights-metabase.katalon.com/auth/')
+
+WebUI.delay(10)
+
 WebUI.closeBrowser()
 

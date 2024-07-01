@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 125.0.0.0,,,10-06-2024 12:01:16,10-06-2024 14:14:50,2h - 13m - 34.271s,FAILED
+,,,,,,,
+Test Cases/New Test Case,Chrome 125.0.0.0,${GlobalVariable.TCdescription},,10-06-2024 12:01:16,10-06-2024 14:14:50,2h - 13m - 34.014s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,10-06-2024 12:01:17,10-06-2024 12:01:21,4.360s,PASSED
+"navigateToUrl(""https://katalon.com/pricing"")",Chrome 125.0.0.0,,,10-06-2024 12:01:21,10-06-2024 12:01:29,7.560s,PASSED
+"switchToWindowTitle(""Software Quality Management Platform | Katalon Pricing"")",Chrome 125.0.0.0,,,10-06-2024 12:01:29,10-06-2024 12:01:29,0.056s,PASSED
+"click(findTestObject(""Object Repository/Page_Software Quality Management Platform  _0ea48f/button_Reject All""))",Chrome 125.0.0.0,,,10-06-2024 12:01:29,10-06-2024 14:14:50,2h - 13m - 21.636s,FAILED
